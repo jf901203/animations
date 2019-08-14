@@ -2,11 +2,11 @@
 ##当您在 @keyframes 中创建动画时，请把它捆绑到某个选择器，否则不会产生动画效果。
 
 		#demo{
-				width: 200px;
-				height:200px;
-				background:blue;
-				animation:move .5s;
-				margin:0px auto;
+			width: 200px;
+			height:200px;
+			background:blue;
+			animation:move .5s; //捆绑到demo选择器
+			margin:0px auto;
 			}
 
 		@keyframes move{
